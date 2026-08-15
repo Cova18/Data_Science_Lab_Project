@@ -1,21 +1,34 @@
-# Inclusione ed Esclusione Finanziaria Digitale in Italia (indagine IACOFI 2023)
+# Digital Financial Inclusion and Fraud Exposure in Italy
 
 Progetto di gruppo per il corso di Data Science Lab. Il lavoro analizza i dati
 del questionario IACOFI 2023 per studiare l'inclusione/esclusione finanziaria
-digitale della popolazione adulta italiana, articolato in quattro research
-question (RQ), ciascuna curata da un membro/sottogruppo del team.
+digitale della popolazione adulta italiana, seguendo il percorso concettuale:
+**accesso → adozione/uso → esposizione a frodi → protezione tramite
+consapevolezza della sicurezza**.
 
-## Research question e file di riferimento
+**Autori:** Davide Cavallo, Lorenzo Anteghini, Nicola Mereghetti, Andrei Covali.
 
-| RQ | Tema | Codice | Report finale |
-|----|------|--------|-----------------|
-| RQ1a | Accesso a Internet (chi resta escluso, per età/istruzione/...) | `RQ1_internet_access/RQ1_Internet_Access_Analysis.ipynb` | `report_finale/report_RQ1_accesso_adozione.pdf` |
-| RQ1b | Adozione (QP8) e frequenza d'uso (QP9) di servizi finanziari online tra chi ha Internet | `RQ1_adoption_qp8_qp9/qp8+qp9.ipynb` | `report_finale/report_RQ1_accesso_adozione.pdf` |
-| RQ3 | Esposizione a frodi digitali | `RQ3_fraud_exposure/RQ3.ipynb` | `report_finale/report_RQ3_frodi_digitali.pdf` |
-| RQ4 | Consapevolezza dei rischi di sicurezza digitale | `RQ4_security_awareness/RQ4_security_awareness.ipynb` | `report_finale/report_RQ4_security_awareness.docx` |
+**Report finale:** [`report_finale/report_finale.pdf`](report_finale/report_finale.pdf)
 
-RQ1a e RQ1b sono state riunite in un unico report accademico finale
-(`report_RQ1_accesso_adozione.pdf`).
+## Research question e codice di riferimento
+
+| RQ | Tema | Notebook |
+|----|------|----------|
+| RQ1a | Accesso a Internet (chi resta escluso, per età/istruzione/...) | `RQ1_internet_access/RQ1_Internet_Access_Analysis.ipynb` |
+| RQ1b | Adozione (QP8) e frequenza d'uso (QP9) di servizi finanziari online tra chi ha Internet | `RQ1_adoption_qp8_qp9/qp8+qp9.ipynb` |
+| RQ2 | Attività digitale ed esposizione a frodi finanziarie riportate | `RQ3_fraud_exposure/RQ3.ipynb` |
+| RQ3 | Ruolo protettivo della consapevolezza sulla sicurezza digitale | `RQ4_security_awareness/RQ4_security_awareness.ipynb` |
+
+> Nota: i numeri delle RQ nel report finale (RQ1a, RQ1b, RQ2, RQ3) non
+> corrispondono 1-a-1 ai nomi delle cartelle di codice (`RQ3_fraud_exposure`,
+> `RQ4_security_awareness`), che riflettono invece l'organizzazione di lavoro
+> originaria del team. Il contenuto analitico è lo stesso: `RQ3_fraud_exposure`
+> corrisponde a RQ2 del report (frodi), `RQ4_security_awareness` corrisponde
+> a RQ3 del report (consapevolezza).
+
+Tutte le analisi confluiscono in un unico report finale
+(`report_finale/report_finale.pdf`), che integra i quattro filoni in un
+framework unico di inclusione finanziaria digitale.
 
 ## Struttura della repository
 
@@ -33,9 +46,7 @@ RQ1a e RQ1b sono state riunite in un unico report accademico finale
 ├── RQ4_security_awareness/
 │   └── RQ4_security_awareness.ipynb
 └── report_finale/
-    ├── report_RQ1_accesso_adozione.pdf
-    ├── report_RQ3_frodi_digitali.pdf
-    └── report_RQ4_security_awareness.docx
+    └── report_finale.pdf
 ```
 
 ## Dati
